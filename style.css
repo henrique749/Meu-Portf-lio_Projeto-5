@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --cor-principal: #6E859F;
+    --cor-secundaria: #2c2860;
+    --cor-destaque: #0d19c9;
+}
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    color: var(#6E859F);
+    background-color: black;
+}
+
+h1, h2, h5 {
+    color: #0d19c9;
+    color: var(#2c2860);
+    font-weight: 700;
+}
+
+.lead, .btn-link {
+    color: var(#0d19c9);
+    font-weight: 700;
+}
+
+a, .btn-link:hover {
+    color: var(#6E859F)
+}
+
+a:hover{
+    color: var(#0d19c9);
+}
+.lead {
+    color: #0d19c9;
+}
+p {
+    color: aliceblue;
+}
+.card-text {
+    color: black;
+}
